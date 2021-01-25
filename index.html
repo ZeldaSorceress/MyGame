@@ -3,11 +3,13 @@
 <head>
     <title>Main Page</title>
     <link rel="stylesheet" href="CSS/scrollbar.css">
+    <link rel="stylesheet" href="CSS/tables.css">
 </head>
 <style>
     html,body {
-        background-color: #262626;
+        background-color: #a39a9a;
         margin: 0%;
+        background-image: linear-gradient(#262626, black);
     }
     div.navbar {
         text-align: center;
@@ -24,6 +26,9 @@
         display: inline;
         padding: 10px;
     }
+    div.about {
+        margin-top: 50px;
+    }
 </style>
 <body>
 <!---Nav Bar--->
@@ -35,5 +40,29 @@
         <a href="">Link</a>
     </div>
 <!---End Nav Bar--->
+<br>
+<!---About--->
+    <div class="about">
+        <h1 style="color:white;text-align:center;">About The Game</h1>
+        <table>
+            <tr>
+                <th>Genre</th>
+                <th>Background/Story</th>
+                <th>Game Downloads</th>
+                <th>Game Ratings</th>
+                <th>In-Game Items</th>
+                <th>In-Game Places</th>
+            </tr>
+            <tr>
+                <td>Fantasy<br>RPG<br>MMORPG</td>
+                <td>You are a champion chosen by the Gods and <br>sworn to protect the people from the incoming threat.<br> You grew up not having any combat experience, yet you were <br>destined to be the greatest champion. You must travel to every part <br>of the world to complete your ultimate quest. <br>The sealed evil is bound to break free at any given time, <br>are you the champion that can defeat this evil?</td>
+                <td>0</td>
+                <td>0/0</td>
+                <td>Hats<br><br>Attire<br><br>Boots<br><br>Weapons<br><br>Potions<br><br>Attacks<br><br>Materials</td>
+                <td>Roota Village<br>Roota Village Caverns<br>Sacred Forest<br>Underground Camp<br>Weeping Forest<br>Weeping Castle<br>Hall of The Gods<br>Champion Temple<br>Golum Volcano<br>Golum Cave<br>Frisha Kingdom<br>Frisha Waterfall<br>Kaera Field<br>Kaera Castle</td>
+            </tr>
+        </table>
+    </div>
+<!---End About--->
 </body>
 </html>

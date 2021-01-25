@@ -1,0 +1,24 @@
+table, th, td {
+    color: white;
+    padding: 10px;
+}
+th {
+    color: white;
+    font-size: 24px;
+    border-style: solid;
+    border-color: black;
+}
+td {
+    border-style: solid;
+    border-color: black;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.6;
+}
+td:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+}
