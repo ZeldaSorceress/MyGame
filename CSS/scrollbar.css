@@ -16,3 +16,9 @@
     box-shadow: 1px 1px 10px #262626;
     border-radius: 10px;
 }
+hr.red {
+    background-color: black;
+    padding: 5px;
+    color: #262626;
+    border-color: black;
+}
