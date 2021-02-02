@@ -1,9 +1,11 @@
 table, th, td {
     color: white;
     padding: 10px;
+    opacity: 1;
 }
 th,td {
     box-shadow: 1px 1px 10px black;
+    opacity: 1;
 }
 th {
     color: white;
@@ -16,7 +18,7 @@ td {
     border-color: black;
     font-size: 18px;
     text-align: center;
-    opacity: 0.6;
+    color: white;
 }
 td:hover {
     opacity: 1;
