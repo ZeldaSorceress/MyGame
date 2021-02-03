@@ -14,3 +14,18 @@
 .itema {
     text-shadow: 1px 1px 10px blue;
 }
+.links {
+    color: aqua;
+    text-shadow: 1px 1px 10px aqua;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 30px;
+    opacity: 0.6;
+    box-shadow: 1px 1px 10px blue;
+}
+.links:hover {
+    opacity: 1;
+}
