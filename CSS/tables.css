@@ -8,17 +8,19 @@ th,td {
     opacity: 1;
 }
 th {
-    color: white;
+    color: rgb(10, 180, 138);
     font-size: 24px;
     border-style: solid;
     border-color: black;
+    text-shadow: 1px 1px 10px rgb(10, 180, 138);
 }
 td {
     border-style: solid;
     border-color: black;
     font-size: 18px;
     text-align: center;
-    color: white;
+    color: rgb(10, 180, 138);
+    text-shadow: 1px 1px 10px rgb(10, 180, 138);
 }
 td:hover {
     opacity: 1;
