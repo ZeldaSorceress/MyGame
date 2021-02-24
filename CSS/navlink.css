@@ -1,0 +1,15 @@
+a {
+    font-size: 18px;
+    text-decoration: none;
+    text-shadow: 1px 1px 10px aqua;;
+    color: aqua;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px blue;
+}
+a:hover {
+    border-color: rgb(10, 180, 138);
+    box-shadow: 1px 1px 10px rgb(10, 180, 138);
+}
