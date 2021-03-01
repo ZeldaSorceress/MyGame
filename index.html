@@ -7,86 +7,52 @@
     <link rel="stylesheet" href="CSS/tables.css">
     <link rel="stylesheet" href="CSS/video.css">
     <link rel="stylesheet" href="CSS/classitem.css">
-    <link rel="icon" href="RES/HeartContainer.png" type="image/png" sizes="16x16">
 </head>
 <style>
     html,body {
         margin: 0%;
     }
-    img {
-        border-color: aqua;
-        border-style: outset;
-        box-shadow: 1px 1px 10px aqua;
-        border-radius: 30px;
-        opacity: 0.6;
+    .download {
+        text-decoration: none;
+        outline: none;
+        font-size: 18px;
+        border-color: yellow;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 10px;
+        width: 220px;
+        height: 50px;
+        color: black;
+        box-shadow: 1px 1px 10px yellow;
+        background-color: orange;
+        cursor: pointer;
     }
-    img:hover {
-        opacity: 1;
+    .download:hover {
+        border-color: green;
+        border-style: outset;
+        box-shadow: 1px 1px 10px green;
     }
 </style>
 <body>
-    <br>
 <!---Autoplay Background--->
     <video autoplay muted loop id="myVideo">
-        <source src="RES/stars.mp4" type="video/mp4">
+        <source src="RES/background.mp4" type="video/mp4">
     </video>
 <!---End Autoplay Background--->
 <!---About--->
+    <br>
+    <br>
     <div class="transbox">
-            <h1 style="color:rgb(10, 180, 138);text-align:center;">Game Details</h1>
-            <table>
-                <tr>
-                    <th>Background/Story</th>
-                </tr>
-                <tr>
-                    <td>You are a champion chosen by the Gods and <br>sworn to protect the people from the incoming threat.<br> You grew up not having any combat experience, yet you were <br>destined to be the greatest champion. You must travel to every part <br>of the world to complete your ultimate quest. <br>The sealed evil is bound to break free at any given time, <br>are you the champion that can defeat this evil?</td>
-                    <td><img src="https://cdnb.artstation.com/p/assets/images/images/004/932/229/large/alex-feliksovich-10.jpg?1487288931" width="400" height="200" alt="image"></td>
-                </tr>
-            </table>
+            <h1 style="color:black;text-align:center;">Thank you!</h1>
             <br>
             <br>
-            <table>
-                <tr>
-                    <th></th>
-                    <th>In-Game Places</th>
-                </tr>
-                <tr>
-                    <td><img src="https://cdna.artstation.com/p/assets/images/images/017/769/758/large/patrick-jensen-waterfallcastle.jpg?1557271350" width="400" height="200" alt="image"></td>
-                    <td>Roota Village, Roota Caverns<br>Sacred Forest, Forest Shrine<br>Weeping Forest, Weeping Shrine<br>Hall of The Gods, Champion Temple<br>Golum Volcano, Golum Shrine<br>Icicilis Kingdom, Icicilis Shrine<br>Crystallis Field, Crystallis Castle</td>
-                </tr>
-            </table>
-            <br>
-            <br>
-            <hr class="red">
-            <br>
-            <br>
-            <table>
-                <tr>
-                    <th>Game Downloads</th>
-                    <th>Game Reviews</th>
-                    <th>GITHUB Views</th>
-                </tr>
-                <tr>
-                    <td>20</td>
-                    <td>0<br><a href="https://forms.gle/5dUQWL2CTNUZeHYy5" class="itema" target="_blank">Submit A Review</a></td>
-                    <td>220</td>
-                </tr>
-            </table>
-            <br>
-            <br>
-        <!---Quick Links--->
-            <h1>Quick Links</h1>
-            <a href="gear.html" class="links">Gear Sets</a>
-            <a href="skills.html" class="links">Skills</a>
-            <a href="gamelocations.html" class="links">Locations</a>
+                <p style="color:black;font-size:18px;">Thank you for taking the time to look at this game, please click the download link below this text to begin your journey. <br>Unfortunately the game is not ready for an official release yet. There is a few selected in-game screenshots <br>showing what the game will look like and offer.</p>
+                <br>
+                <button href="" class="download">Download</button>
             <br>
             <br>
             <br>
-            <a href="materials.html" class="links">Materials</a>
-            <a href="enemies.html" class="links">Enemies</a>
             <br>
-            <br>
-        <!---End Quick Links--->
     </div>
 <!---End About--->
 <script src="JS/backgroundvideo.js"></script>

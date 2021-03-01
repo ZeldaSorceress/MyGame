@@ -4,23 +4,23 @@ table, th, td {
     opacity: 1;
 }
 th,td {
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 1px 1px 10px orange;
     opacity: 1;
 }
 th {
-    color: rgb(10, 180, 138);
+    color: black;
     font-size: 24px;
     border-style: solid;
-    border-color: black;
-    text-shadow: 1px 1px 10px rgb(10, 180, 138);
+    border-color: orange;
+    text-shadow: 1px 1px 10px yellow;
 }
 td {
     border-style: solid;
-    border-color: black;
+    border-color: orange;
     font-size: 18px;
     text-align: center;
-    color: rgb(10, 180, 138);
-    text-shadow: 1px 1px 10px rgb(10, 180, 138);
+    color: black;
+    text-shadow: 1px 1px 10px black;
 }
 td:hover {
     opacity: 1;
